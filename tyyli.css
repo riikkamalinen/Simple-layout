@@ -1,0 +1,123 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+li {
+  width: 96%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: #939393;
+  text-align: center;
+  margin-top: 5px;
+  transition: all 1s;
+  z-index: 10;
+  position: relative;
+}
+li p {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 7px;
+}
+li:hover {
+  width: 105%;
+  background-color: #004d18;
+}
+ul {
+  width: 100%;
+  list-style-type: none;
+  float: left;
+  padding-left: 0;
+}
+a {
+  font-family: calibri;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-top: 7px;
+}
+
+.kaikki {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.yla{
+  height: 250px;
+  width: 100%;
+  background-image: url(kuva.JPG);
+  background-attachment: fixed;
+  background-position: center 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: stretch;
+}
+
+h1 {
+  font-size: 80pt;
+  font-weight: bold;
+  font-family: calibri;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.palkki {
+  width: 20%;
+  min-height: 100%;
+  float: left;
+  background-color: #c2c2c2;
+  align-items: stretch;
+  position: relative;
+
+}
+
+.keski {
+  min-height: 100%;
+  width: 80%;
+  float: left;
+  background-color: #FFFFFF;
+  z-index: -1;
+  align-items: stretch;
+}
+
+p, h2, img {
+  margin: 20px;
+  padding: 30px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+h2{
+  color: #004d18;
+}
+
+img{
+  height: 300px;
+  padding-right: 0;
+}
+
+.tiedot{
+  position: absolute;
+  bottom: 0px;
+  background-color: #004d18;
+  max-height:25%;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+.tiedot p {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  color: white;
+}
